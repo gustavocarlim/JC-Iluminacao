@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AppShell, ScrollToTop } from "./components/Layout";
 import Hoome from "./pages/Home";
 import ProductsPage from "./pages/ProductsPage";
@@ -8,7 +8,7 @@ import ContactPage from "./pages/ContactPage";
 
 export default function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <ScrollToTop />
       <AppShell>
         <Routes>
@@ -18,6 +18,6 @@ export default function App() {
           <Route path="/contacts" element={<ContactPage />} />
         </Routes>
       </AppShell>
-    </Router>
+    </BrowserRouter>
   );
 }
