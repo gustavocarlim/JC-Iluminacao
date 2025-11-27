@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { MapPin, Clock, Building2, PlugZap, Lamp, Cable, Wrench, Lightbulb, Home } from "lucide-react";
+import { MapPin, Clock, Building2, PlugZap, Lamp, Cable, Wrench, Lightbulb, Home as HomeIcon } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import ProductCard from "../components/ProductCard";
 import { PRODUCTS } from "../data/constants";
@@ -29,7 +29,7 @@ const STORES = [
   }
 ];
 
-export default function Hoome() {
+export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [activeStoreIndex, setActiveStoreIndex] = useState(0);
 
@@ -158,7 +158,7 @@ export default function Hoome() {
             { name: "Fiação", icon: <Cable size={30} /> },
             { name: "Ferramentas", icon: <Wrench size={30} /> },
             { name: "Lâmpadas", icon: <Lightbulb size={30} /> },
-            { name: "Casa", icon: <Home size={30} /> },
+            { name: "Casa", icon: <HomeIcon size={30} /> },
           ].map((cat) => (
             <Link
               key={cat.name}
