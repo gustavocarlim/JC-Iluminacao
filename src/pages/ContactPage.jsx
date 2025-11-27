@@ -52,7 +52,7 @@ export default function ContactPage() {
                 Precisa de um orçamento para sua obra ou projeto? Envie sua lista por e-mail.
               </p>
               <a
-                href="mailto:contato@jciluminacao.com.br"
+                href="mailto:compras@jciluminacao.com"
                 className="text-lg font-semibold text-[#393C99] hover:underline"
               >
                 compras@jciluminacao.com

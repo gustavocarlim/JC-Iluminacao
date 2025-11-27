@@ -62,5 +62,5 @@ export const PRODUCTS = [
 { id: 51, name: "Silicone Bisnaga", category: "Casa", price: 13.99, image: "/products/siliconebisnaga.webp", description: "Silicone em bisnaga para vedação." },
 { id: 52, name: "Soquete Universal", category: "Luminárias", price: 4.50, image: "/products/soquete.webp", description: "Soquete universal para lâmpadas de rosca E27." },
 { id: 53, name: "Suporte para TV Universal", category: "TV", price: 54.99, image: "/products/SuporteParaTVUniversal.webp", description: "Suporte universal para TV, compatível com vários tamanhos." },
-{ id: 53, name: "Fita Led de 5 metros", category: "Iluminação", price: 34.99, image: "/products/fitaledde5metros.webp", description: "Fita LED flexível para iluminação decorativa, econômica e fácil de instalar."}
+{ id: 54, name: "Fita Led de 5 metros", category: "Iluminação", price: 34.99, image: "/products/fitaledde5metros.webp", description: "Fita LED flexível para iluminação decorativa, econômica e fácil de instalar."}
 ];
